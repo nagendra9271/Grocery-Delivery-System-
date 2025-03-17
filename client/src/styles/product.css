@@ -1,0 +1,111 @@
+/* ✅ Page Layout */
+.container {
+  max-width: 1200px;
+}
+
+/* ✅ Product Card */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* ✅ Product Image */
+.product-image {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  object-fit: cover;
+  max-height: 100px;
+  width: 75%;
+}
+
+/* ✅ Description */
+.product-description {
+  font-size: 14px;
+  color: #666;
+  height: 40px; /* Restricting height */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ✅ Quantity Dropdown */
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* ✅ Buttons */
+.btn-primary,
+.btn-success {
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* ✅ Modal Styling */
+.modal-content {
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.modal-body p {
+  font-size: 16px;
+  color: #555;
+}
+
+.modal-body .fw-bold {
+  font-size: 18px;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 15px;
+  }
+
+  .product-image {
+    height: 140px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+
+/* Product Image */
+.product-image {
+  border-radius: 10px;
+}
+
+/* Low Stock Badge */
+.badge.bg-danger {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Description */
+.product-description {
+  font-size: 14px;
+  color: #555;
+}
