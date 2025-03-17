@@ -1,4 +1,4 @@
-# Student Grocery System
+# Grocery-Delivery-System
 
 ## 📌 Overview
 The **Student Grocery System** is a web-based application that allows students to browse and purchase groceries from various sellers. Sellers can manage their products and track completed orders. The system supports features like product management, cart functionality, order tracking, and delivery slot selection.
